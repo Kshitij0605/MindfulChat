@@ -1,0 +1,20 @@
+# Ignore Terraform and environment secrets
+terraform/
+*.tfstate
+*.tfvars
+*.tfplan
+.terraform/
+
+# Environment variables
+.env
+.env.*
+
+# AWS credentials or sensitive config
+aws_credentials.json
+*.pem
+*.key
+
+# Python / Node (optional)
+__pycache__/
+*.pyc
+node_modules/

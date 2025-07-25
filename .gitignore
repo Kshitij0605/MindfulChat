@@ -18,3 +18,6 @@ aws_credentials.json
 __pycache__/
 *.pyc
 node_modules/
+
+#ADDitional
+eksctl.exe

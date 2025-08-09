@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "471112828719.dkr.ecr.us-east-1.amazonaws.com/chatbot-app:latest"
+        DOCKER_IMAGE = ""
     }
 
     stages {
